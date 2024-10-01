@@ -1,0 +1,206 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   border: 1px black solid;}
+   
+ /*color tek.forståelse*/
+.tekforcolor {background-color: rgb(166, 0, 181)}
+/*color prod. historie*/
+.cprod{background-color: rgb(214, 175, 92);}
+/*color yff*/
+.cyff{background-color: rgb(223, 83, 83);}
+/* color programering*/
+.cprg{background-color: blueviolet;}
+/* color gym*/
+.cgym{background-color: aqua;}
+/* color naturfag*/
+.cnat{background-color: chocolate;}
+/* color english*/
+.ceng{background-color: hotpink;}
+
+
+
+
+
+
+table {
+  background-color: rgb(201, 188, 188);
+}
+
+body{
+  background-color: #2a4149;
+  
+}
+.header{
+  ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a4149;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+}
+
+
+.overskrift{
+ display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 500px;   
+    color: white;
+    font-style: bold;
+    font-size: 100px;
+
+    
+  }
+
+
+
+
+
+.btn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/*css for bilde galeri*/
+
+.button-container {
+  width: fit-content;
+  background: fixed;
+  overflow-y: auto;
+  align-items: center;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+
+.button-container > a {
+  
+ 
+  width: 250px;
+  height: 250px;
+  float: left;
+  background: lightgray; 
+margin: 10px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+ background-image: url("img/DSC_0169\ \(1\).jpg");
+ align-items: center;
+}
+
+
+style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+.overskrift_mine_projecter {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+.overskrift-nam{
+  color: #ffff;
+  margin-left: 15px;
+}
+
+
+h1{
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+p.button {
+  color: white;
+  width: 157px;
+  height: 25px;
+  font-size: 18px;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 21px;
+  padding-left: 21px;
+  background-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  position: relative;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+  transition: all 0.8s
+}
+
+p.button:hover {
+  align-content: center;
+  color: orange;
+  background-color: rgb(255, 210, 216);
+  border-color: black;
+  outline:1px solid black;
+}
+a:link {
+  text-decoration: none;
+}
+
+@media (max-width:572px){
+  body{
+          height: 100%;
+          background-color: #2a4149;
+  
+}
+
+.overskrift{
+  font-size: 50px;
+}
+
+}
+
+
